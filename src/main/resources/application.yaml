@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /geocoder
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full
+logging:
+  level:
+    com:
+     example:
+      geocoder:
+       proxy:
+        GeoCoderProxy: debug
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    info:
+      enabled: true
+    health:
+      enabled: true
+  endpoints:
+    web:
+      base-path: /my_actuator
+app:
+  feign:
+    config:
+      url: https://graphhopper.com/api/1/geocode
+      name: geocoder-api
