@@ -279,7 +279,7 @@ Actuator доступен по - /geocoder/my_actuator
             </tbody>
         </table>   
    
-    </div>
+ 
 </div>
 
 </body>
