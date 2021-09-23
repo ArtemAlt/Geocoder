@@ -44,8 +44,7 @@ Actuator доступен по - /geocoder/my_actuator
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Description API</title>
+    <meta charset="UTF-8">    
 </head>
 <body>
 <body>
